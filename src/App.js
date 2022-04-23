@@ -168,6 +168,14 @@ export default class App extends React.Component {
           Return
         </a>
         {space}is substitutive supply!
+        <br />
+        <br />
+        <div style={{ borderLeft: "3px solid", paddingLeft: "4px" }}>
+          “High growth red states or high income during expense Dem states,” how
+          about high leisure Saver states?
+        </div>
+        <br />
+        Thanks to less taxes, we had more jobs repatriated, "growth!"
       </div>
     );
   }
