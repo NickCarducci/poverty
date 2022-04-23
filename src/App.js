@@ -12,7 +12,6 @@ export default class App extends React.Component {
     this.state = {
       trigger: false,
       browser: name,
-      scrollTop: 0,
       serviceCancelingImages: name.includes("Safari")
     };
     for (let i = 0; i < 220; i++) {
@@ -23,6 +22,7 @@ export default class App extends React.Component {
     window.addEventListener("resize", this.refresh);
     window.addEventListener("scroll", this.handleScroll);
     this.refresh(true);
+    this.handleScroll();
   };
   componentWillUnmount = () => {
     clearTimeout(this.check);
@@ -109,22 +109,6 @@ export default class App extends React.Component {
           position: "relative"
         }}
       >
-        {/*<Cable
-          style={{ width: "200px" }}
-          onError={handleScollImgError}
-          img={true}
-          src={
-            this.state.noyout
-              ? ""
-              : "https://www.dropbox.com/s/sqf6c2uuuf4kjzg/Screen%20Shot%202022-03-17%20at%201.39.57%20PM.png?raw=1"
-          }
-          float={"left"}
-          title="The Future of Medicine: Legislation to Encourage Innovation and Improve Oversight (Energy and Commerce Committee, Youtube) - https://youtu.be/Oiy0aFXyKzU"
-          scrolling={this.state.scrolling}
-          fwd={this["scrollImg" + scrollnum()]}
-          scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-          scrollTop={this.state.scrollTop}
-        />*/}
         <h4>
           <a href="https://disabilities.quora.com/Did-slavery-cause-inflation-1">
             Did slavery cause inflation
@@ -176,6 +160,43 @@ export default class App extends React.Component {
         </div>
         <br />
         Thanks to less taxes, we had more jobs repatriated, "growth!"
+        <br />
+        <br />
+        “We need work camps to help teach discipline.”
+        <br />
+        <Cable
+          style={{ width: "200px" }}
+          onError={handleScollImgError}
+          //img={true}
+          src={
+            this.state.noyout
+              ? ""
+              : "https://www.youtube.com/embed/AQ7h_U5G0fY?start=110"
+          }
+          float={"left"}
+          title="HACKENSACK MERIDIAN HEALTH RIVERVIEW MEDICAL CENTER, Mental health slander, zero evidence lest actual crime - https://youtu.be/AQ7h_U5G0fY?t=110"
+          scrolling={this.state.scrolling}
+          fwd={this["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+          scrollTop={this.state.scrollTop}
+        />
+        <br />
+        <br />
+        Please sir rollover you ascertainable "value-added" outside-of-pocket
+        expiring premiums, goverment deficit spending and structures for leases
+        and laborless-income.
+        <br />
+        <br />
+        All-expense poverty is{space}
+        <a href="https://fred.stlouisfed.org/graph/?g=O4CU">GDP/p-1/hour</a>,
+        income and expense are of the same number, yet hours suffices basis for
+        measure, to be sure.
+        <br />
+        <br />
+        Stop scapegoating homelessness as mental illness or drug use! Don’t you
+        need to take a CT scan to convict that? CA NY NJ all negligent.
+        “Republican is the abolitionist party.” Non-caddle slavery was just
+        non-substitutive-supply. ALL OTHER CULTURAL FREEDOMS WERE AVAILABLE
       </div>
     );
   }
