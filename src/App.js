@@ -182,9 +182,9 @@ export default class App extends React.Component {
         />
         <br />
         <br />
-        Please sir rollover you ascertainable "value-added" outside-of-pocket
-        expiring premiums, goverment deficit spending and structures for leases
-        and laborless-income.
+        Please sir orthopedic surgeon, rollover you ascertainable "value-added"
+        outside-of-pocket expiring premiums, goverment deficit spending and
+        structures for leases and laborless-income.
         <br />
         <br />
         All-expense poverty is{space}
@@ -197,6 +197,13 @@ export default class App extends React.Component {
         need to take a CT scan to convict that? CA NY NJ all negligent.
         “Republican is the abolitionist party.” Non-caddle slavery was just
         non-substitutive-supply. ALL OTHER CULTURAL FREEDOMS WERE AVAILABLE
+        <br />
+        <br />
+        Government is a smaller part of the economy over time. “
+        <a href="https://qr.ae/pv2vzE">We can start</a>
+        {space}
+        making government spending less value-added of the GDP,” Kevin Brady,
+        Ways and Means Committee
       </div>
     );
   }
