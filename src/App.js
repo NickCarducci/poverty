@@ -163,6 +163,11 @@ export default class App extends React.Component {
           inside-out-of-pocket but outside of pocket, government and structures
           for leases!"
         </div>
+        <br />
+        <a href="https://maxroyalties.quora.com/Is-it-better-to-have-more-interest-or-less-interest-1">
+          Return
+        </a>
+        {space}is substitutive supply!
       </div>
     );
   }
