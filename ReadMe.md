@@ -1,4 +1,4 @@
-### Third party donee beneficiary and borrower duress
+### less income than a third of CURRENT expense despondency, skew of outliers notwithstanding...
 
-invoices are theft
-github.com/nickcarducci/invoicesaretheft
+poverty.work
+github.com/nickcarducci/poverty
