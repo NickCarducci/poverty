@@ -155,6 +155,14 @@ export default class App extends React.Component {
         Or, leisure upsidedown with "value-added" imputed by *1.2 (plus
         mortgage) to hide ascertainable harm of insurance presentation in{space}
         <a href="https://saverparty.xyz/poverty">Healthcare</a>?
+        <br />
+        <br />
+        <div style={{ borderLeft: "3px solid", paddingLeft: "4px" }}>
+          "Jobs, hard-hat, services to support, power, gone, economy, gone!
+          GDP/hour is productivity! More expenses per hour! Not
+          inside-out-of-pocket but outside of pocket, government and structures
+          for leases!"
+        </div>
       </div>
     );
   }
